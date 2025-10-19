@@ -1,0 +1,152 @@
+T3E7C 002:685.627   SEGGER J-Link V7.96h Log File
+T3E7C 002:685.676   DLL Compiled: May 15 2024 15:33:59
+T3E7C 002:685.680   Logging started @ 2025-05-12 13:18
+T3E7C 002:685.683   Process: D:\keil5\UV4\UV4.exe
+T3E7C 002:685.687 - 18.243ms
+T3E7C 002:685.693 JLINK_SetWarnOutHandler(...)
+T3E7C 002:685.696 - 0.003ms
+T3E7C 002:685.712 JLINK_OpenEx(...)
+T3E7C 002:687.532   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T3E7C 002:688.115   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T3E7C 002:688.218   Decompressing FW timestamp took 91 us
+T3E7C 002:693.706   Hardware: V9.20
+T3E7C 002:693.726   S/N: 20250012
+T3E7C 002:693.736   OEM: SEGGER
+T3E7C 002:693.745   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T3E7C 002:694.318   Bootloader: (Could not read)
+T3E7C 002:694.961   TELNET listener socket opened on port 19021
+T3E7C 002:699.505   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T3E7C 002:699.665   WEBSRV Webserver running on local port 19080
+T3E7C 002:699.761   Looking for J-Link GUI Server exe at: D:\keil5\ARM\Segger\JLinkGUIServer.exe
+T3E7C 002:699.804   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink_V810a\JLinkGUIServer.exe
+T3E7C 002:699.821   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink_V810a\JLinkGUIServer.exe
+T3E7C 002:703.409   J-Link GUI Server info: "J-Link GUI server V8.10a "
+T3E7C 002:703.686 - 17.970ms returns "O.K."
+T3E7C 002:703.706 JLINK_GetEmuCaps()
+T3E7C 002:703.712 - 0.004ms returns 0xB9FF7BBF
+T3E7C 002:703.731 JLINK_TIF_GetAvailable(...)
+T3E7C 002:703.860 - 0.129ms
+T3E7C 002:703.870 JLINK_SetErrorOutHandler(...)
+T3E7C 002:703.875 - 0.004ms
+T3E7C 002:703.885 JLINK_ExecCommand("ProjectFile = "C:\Users\ash\Desktop\new_remote_ctrl\JLinkSettings.ini"", ...). 
+T3E7C 002:705.857 - 1.971ms returns 0x00
+T3E7C 002:705.882 JLINK_ExecCommand("Device = STM32H743IITx", ...). 
+T3E7C 002:706.842   Flash bank @ 0x90000000: SFL: Parsing sectorization info from ELF file
+T3E7C 002:706.858     FlashDevice.SectorInfo[0]: .SectorSize = 0x00010000, .SectorStartAddr = 0x00000000
+T3E7C 002:719.487   Device "STM32H743II" selected.
+T3E7C 002:719.789 - 13.896ms returns 0x00
+T3E7C 002:719.801 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T3E7C 002:719.808 - 0.001ms returns 0x01
+T3E7C 002:719.813 JLINK_GetHardwareVersion()
+T3E7C 002:719.817 - 0.004ms returns 92000
+T3E7C 002:719.821 JLINK_GetDLLVersion()
+T3E7C 002:719.824 - 0.003ms returns 79608
+T3E7C 002:719.828 JLINK_GetOEMString(...)
+T3E7C 002:719.833 JLINK_GetFirmwareString(...)
+T3E7C 002:719.836 - 0.003ms
+T3E7C 002:719.844 JLINK_GetDLLVersion()
+T3E7C 002:719.847 - 0.003ms returns 79608
+T3E7C 002:719.851 JLINK_GetCompileDateTime()
+T3E7C 002:719.854 - 0.003ms
+T3E7C 002:719.859 JLINK_GetFirmwareString(...)
+T3E7C 002:719.862 - 0.003ms
+T3E7C 002:719.867 JLINK_GetHardwareVersion()
+T3E7C 002:719.870 - 0.003ms returns 92000
+T3E7C 002:719.874 JLINK_GetSN()
+T3E7C 002:719.878 - 0.003ms returns 20250012
+T3E7C 002:719.882 JLINK_GetOEMString(...)
+T3E7C 002:719.888 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T3E7C 002:720.312 - 0.423ms returns 0x00
+T3E7C 002:720.324 JLINK_HasError()
+T3E7C 002:720.331 JLINK_SetSpeed(5000)
+T3E7C 002:720.380 - 0.049ms
+T3E7C 002:720.673 JLINK_HasError()
+T3E7C 002:720.681 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T3E7C 002:720.685 - 0.004ms returns JLINKARM_RESET_TYPE_NORMAL
+T3E7C 002:720.689 JLINK_Reset()
+T3E7C 002:720.821   ConfigTargetSettings() start
+T3E7C 002:720.827    J-Link Script File: Executing ConfigTargetSettings()
+T3E7C 002:720.837   ConfigTargetSettings() end - Took 9us
+T3E7C 002:720.842   InitTarget() start
+T3E7C 002:720.847    J-Link Script File: Executing InitTarget()
+T3E7C 002:720.942   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 002:821.692   Error: Failed to initialized DAP.
+T3E7C 002:821.722   Can not attach to CPU. Trying connect under reset.
+T3E7C 002:872.670   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 002:973.672   Error: Failed to initialized DAP.
+T3E7C 002:973.697   Connecting to CPU via connect under reset failed.
+T3E7C 003:024.122   InitTarget() end - Took 303ms
+T3E7C 003:024.160   Connect failed. Resetting via Reset pin and trying again.
+T3E7C 003:085.621   ConfigTargetSettings() start
+T3E7C 003:085.654    J-Link Script File: Executing ConfigTargetSettings()
+T3E7C 003:085.674   ConfigTargetSettings() end - Took 17us
+T3E7C 003:085.684   InitTarget() start
+T3E7C 003:085.693    J-Link Script File: Executing InitTarget()
+T3E7C 003:085.858   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 003:186.693   Error: Failed to initialized DAP.
+T3E7C 003:186.722   Can not attach to CPU. Trying connect under reset.
+T3E7C 003:237.575   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 003:338.784   Error: Failed to initialized DAP.
+T3E7C 003:338.819   Connecting to CPU via connect under reset failed.
+T3E7C 003:389.224   InitTarget() end - Took 303ms
+T3E7C 003:389.253 - 668.563ms
+T3E7C 003:389.273 JLINK_GetId()
+T3E7C 003:389.490   ConfigTargetSettings() start
+T3E7C 003:389.525    J-Link Script File: Executing ConfigTargetSettings()
+T3E7C 003:389.545   ConfigTargetSettings() end - Took 18us
+T3E7C 003:389.556   InitTarget() start
+T3E7C 003:389.565    J-Link Script File: Executing InitTarget()
+T3E7C 003:389.710   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 003:490.736   Error: Failed to initialized DAP.
+T3E7C 003:490.762   Can not attach to CPU. Trying connect under reset.
+T3E7C 003:541.325   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 003:642.752   Error: Failed to initialized DAP.
+T3E7C 003:642.774   Connecting to CPU via connect under reset failed.
+T3E7C 003:693.378   InitTarget() end - Took 303ms
+T3E7C 003:693.406   Connect failed. Resetting via Reset pin and trying again.
+T3E7C 003:755.344   ConfigTargetSettings() start
+T3E7C 003:755.373    J-Link Script File: Executing ConfigTargetSettings()
+T3E7C 003:755.394   ConfigTargetSettings() end - Took 19us
+T3E7C 003:755.406   InitTarget() start
+T3E7C 003:755.415    J-Link Script File: Executing InitTarget()
+T3E7C 003:755.572   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 003:856.769   Error: Failed to initialized DAP.
+T3E7C 003:856.797   Can not attach to CPU. Trying connect under reset.
+T3E7C 003:908.065   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 004:008.772   Error: Failed to initialized DAP.
+T3E7C 004:008.802   Connecting to CPU via connect under reset failed.
+T3E7C 004:059.597   InitTarget() end - Took 304ms
+T3E7C 004:059.630 - 670.356ms returns 0x00000000
+T3E7C 004:059.681 JLINK_GetId()
+T3E7C 004:059.840   ConfigTargetSettings() start
+T3E7C 004:059.850    J-Link Script File: Executing ConfigTargetSettings()
+T3E7C 004:059.866   ConfigTargetSettings() end - Took 15us
+T3E7C 004:059.876   InitTarget() start
+T3E7C 004:059.885    J-Link Script File: Executing InitTarget()
+T3E7C 004:060.036   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 004:161.021   Error: Failed to initialized DAP.
+T3E7C 004:161.062   Can not attach to CPU. Trying connect under reset.
+T3E7C 004:211.629   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 004:312.771   Error: Failed to initialized DAP.
+T3E7C 004:312.799   Connecting to CPU via connect under reset failed.
+T3E7C 004:363.552   InitTarget() end - Took 303ms
+T3E7C 004:363.589   Connect failed. Resetting via Reset pin and trying again.
+T3E7C 004:425.073   ConfigTargetSettings() start
+T3E7C 004:425.121    J-Link Script File: Executing ConfigTargetSettings()
+T3E7C 004:425.152   ConfigTargetSettings() end - Took 28us
+T3E7C 004:425.168   InitTarget() start
+T3E7C 004:425.182    J-Link Script File: Executing InitTarget()
+T3E7C 004:425.461   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 004:527.012   Error: Failed to initialized DAP.
+T3E7C 004:527.039   Can not attach to CPU. Trying connect under reset.
+T3E7C 004:577.596   SWD selected. Executing JTAG -> SWD switching sequence.
+T3E7C 004:679.017   Error: Failed to initialized DAP.
+T3E7C 004:679.052   Connecting to CPU via connect under reset failed.
+T3E7C 004:729.615   InitTarget() end - Took 304ms
+T3E7C 004:729.641 - 669.958ms returns 0x00000000
+T3E7C 004:732.608 JLINK_GetFirmwareString(...)
+T3E7C 004:732.625 - 0.018ms
+T3E7C 017:173.936 JLINK_Close()
+T3E7C 017:189.658 - 15.721ms
+T3E7C 017:189.676   
+T3E7C 017:189.680   Closed
